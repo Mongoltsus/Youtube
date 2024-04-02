@@ -1,0 +1,123 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    
+
+
+}
+.ul{
+    font-size: 30px;
+}
+.container{
+ background-color: darkgray;   
+padding: 10px;
+}
+ 
+
+ .footer{
+background-color: black;  
+text-align: center;
+color: white;
+padding: 16px;
+font-size: 40px;
+position: fixed;
+bottom: 0px;
+width: 100%;
+height: 20px;
+
+ }
+/* .he{
+background-color: whitesmoke;
+color: black;
+font-size: 36px;
+} */
+
+.tom{
+ color: white;
+padding-top: 8px;
+text-align: center;
+font-size: 30px;
+text-decoration: none;
+height: 120px;
+}
+.haha{
+font-size: 40px;
+padding: 8px;
+
+}
+.box{
+width: 100px;
+height: 100px;
+background-color: gold;
+margin: 5px;
+align-items:flex-start;
+}
+.huree{
+width: 500px;
+height: 500px;
+background-color: lightseagreen;
+display: flex;
+justify-content: center;
+flex: 1;
+
+
+}
+
+.ha{
+display: flex;
+}
+main{
+padding-top: 150px;
+padding-bottom: 100px;
+}
+.box2{
+    width: 100px;
+height: 100px;
+background-color: gold;
+margin: 5px;
+align-items:flex-start;
+}
+.huree2{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.ha2{
+    display: flex
+}
+.tom1{
+display: flex;
+flex-direction: row;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

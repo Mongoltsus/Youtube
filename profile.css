@@ -1,0 +1,169 @@
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  color: skyblue;
+}
+header h2 {
+  text-decoration: none;
+}
+main span {
+  color: skyblue;
+}
+main h1 {
+  color: skyblue;
+}
+main button {
+  color: skyblue;
+}
+main section#nuur img {
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+}
+
+section#nuur {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+}
+section#nuur .left {
+  flex: 1;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+section#nuur .right {
+  flex: 1;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main section#nuur .left h3 {
+  color: skyblue;
+}
+main section#nuur .left button {
+  border: 1px solid;
+  color: skyblue;
+  background-color: black;
+  color: white;
+}
+.animated-text {
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before {
+  content: "Youtuber";
+  color: skyblue;
+  animation: words 20s infinite;
+}
+
+.animated-text span::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #2f3542;
+  border-left: 2px solid skyblue;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  20% {
+    content: "Youtuber";
+  }
+  40% {
+    content: "Blogger";
+  }
+  60% {
+    content: "Developer";
+  }
+  80% {
+    content: "Designer";
+  }
+  100% {
+    content: "Gamer";
+  }
+}
+
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+
+section#nuur .right img {
+  animation: floating 3s infinite;
+}
+@keyframes floating {
+  0% {
+    box-shadow: 0 5px 15px0px color(skyblue);
+    transform: transLateY(0px);
+  }
+  25% {
+    box-shadow: 0 5px 15px 0px rgba(237, 229, 229, 0.6);
+  }
+  50% {
+    box-shadow: 0 5px 15px 0px color(skyblue);
+    transform: transLateY(20px);
+  }
+
+  75% {
+    box-shadow: 0 5px 15px 0px rgba(237, 229, 229, 0.6);
+  }
+  0% {
+    box-shadow: 0 5px 15px 0px color(skyblue);
+    transform: transLateY(0px);
+  }
+}
+#about .right2 {
+  flex: 2;
+}
+#about .left2 {
+  display: flex;
+  flex: 1;
+}
+#about {
+  display: flex;
+}
